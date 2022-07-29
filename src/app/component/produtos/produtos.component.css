@@ -1,0 +1,102 @@
+.whapper-banner_pilotos {
+    background-image: url("../../../assets/imagen/banner_pilotos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 610px;
+    border: none;
+
+}
+
+.whapper-banner_cs {
+    background-image: url("../../../assets/imagen/banner_cs.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 610px;
+    border: none;
+}
+
+.whapper-banner_lol {
+    background-image: url("../../../assets/imagen/banner_lol.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 610px;
+    border: none;
+}
+
+.btn-liga {
+    background-color: var(--cor-vermelho);
+    border: none;
+}
+
+.banner_patrocinadores {
+    background: rgba(var(--cor-azul-escuro-rgb), 0.87);
+}
+
+.card-vendas {
+    padding: 0px;
+}
+
+.banner_vendas {
+    background: rgb(var(--cor-azul-escuro-rgb));
+}
+
+
+.card-box {
+    background: linear-gradient(180deg, #000000 0%, rgba(196, 196, 196, 0) 100%);
+    box-shadow: 1px 1px 20px 4px #000000;
+    color: var(--cor-branco-);
+}
+
+.imgem-fundo {
+    background-image: url("../../../assets/imagen/fundo-sobre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.title-participar {
+    font-size: 3rem;
+}
+.text-produtos {
+    padding-left: 6rem;
+}
+.carousel-caption {
+    right: 15%;
+    bottom: 15.25rem;
+    left: 45%;
+   
+}
+@media only screen and (max-width:991px) {
+    .imagem {
+        display: none;
+    }
+    .descricao {
+        width: 100% !important;
+        margin-bottom: 0 !important;
+        margin-top: 2rem;
+    }
+    .carousel-caption{
+        bottom: 7.25rem;
+
+    }
+    .carousel-caption {
+        right: 15%;
+        bottom: 13.25rem;
+        left: 30%;
+          
+    }
+}
+@media only screen and (max-width:600px){
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: .9rem;
+}
+.carousel-caption {
+    
+    left: 18%;
+      
+}
+}

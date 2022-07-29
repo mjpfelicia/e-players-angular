@@ -1,0 +1,83 @@
+header {
+    background: rgba(var(--cor-azul-escuro-rgb), 0.87);
+
+}
+
+.content-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5.6rem;
+}
+
+header .menu {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+header .menu a {
+    font-family: "Roboto-Light";
+    text-transform: uppercase;
+}
+
+header .menu-bars {
+    display: none;
+}
+
+@media only screen and (max-width:991px) {
+
+    header .menu {
+        position: fixed;
+        top: 0px;
+        left: -80%;
+        z-index: 100;
+        opacity: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        width: 70%;
+        height: 100%;
+        padding: 20px 50px;
+        background-color: rgba(var(--cor-azul-escuro-rgb), 0.87);
+        border-radius: 0 0 0 90px;
+        transition: left 0.4s, opacity 0.5s;
+    }
+
+    header .menu a {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-left: 3px dotted #AAB0AE;
+        font-size: 1.4rem;
+    }
+
+    header .menu-bars {
+        display: block;
+        width: 2rem;
+    }
+
+    .mostraEscondeMenu {
+        left: 0 !important;
+        opacity: 1 !important;
+
+    }
+
+
+
+}
+
+@media only screen and (max-width:576px) {
+    .logo {
+        width: 13rem;
+    }
+
+    header .menu-bars {
+        width: 1.5rem;
+    }
+
+
+
+}

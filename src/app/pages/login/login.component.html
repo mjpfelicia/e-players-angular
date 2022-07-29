@@ -1,0 +1,27 @@
+
+<main>
+<div class="container">
+    <a routerLink="">
+        <fa-icon class="icon-sair" [icon]="faArrowLeft"></fa-icon>
+    </a>
+    <h1 class="titulo">Login</h1>
+    <form (ngSubmit)="salvarDados">
+        
+        <div class="borda">
+            <fa-icon [icon]="faUser"></fa-icon>
+            <input type="text" id="nome" name="nome" placeholder="seu nome" [(ngModel)]="UserModel.nome">
+        </div>
+
+        <div class="borda">
+            <fa-icon [icon]="faEnvelope"></fa-icon>
+            <input type="email" id="email" name="email" placeholder="seu e-mail" [(ngModel)]="UserModel.email">
+        </div>
+        <div class="borda">
+            <fa-icon [icon]="faLock"></fa-icon>
+            <input type="password" id="senha" name="senha" placeholder="digite sua senha" [(ngModel)]="UserModel.senha">
+        </div>
+        <p class="mensagem"></p>
+        <button class="btn" type="submit">Sign in</button>
+    </form>
+</div>
+</main>

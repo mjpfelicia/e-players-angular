@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Open+Sans:wght@500;700&family=PT+Serif:wght@700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+body {
+  font-family: "Roboto";
+
+}
+
+:root {
+  --cor-azul-escuto: #1E1C21;
+  --cor-branco-: #fff;
+  --cor-vermelho: #C31616;
+  --cor-azul-escuro-rgb: 30, 28, 33;
+  --cor-azul-escuro: #1E1C21;
+  --cor-button: #0B216F;
+   --cor-sucesso:#198754;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4rem
+}
+
+.carousel-nav-icon {
+  height: 48px;
+  width: 48px;
+}
+
+.carousel-item .col,
+.carousel-item .col-sm,
+.carousel-item .col-md {
+  margin: 8px;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
