@@ -1,12 +1,14 @@
 # Players
 
-![Design preview for the Bookmark landing page coding challenge](./design/desktop-design.jpg)
-![Design preview for the Bookmark landing page coding challenge](./design/mobile-design.jpg)
+![Design Players](./src/assets/imagen/players-angular_descktop.png)
+![Design Players](./src/assets/imagen/e-players-angular_tablet.png)
+![Design Players](./src/assets/imagen/e-players-angular_%20mobile.png)
+
 
 
 ## Welcome! 👋
 
-Obrigado por conferir este desafio de codificação de front-end.
+·Desenvolver o Front-End do site utilizando o framework do JavaScript Angular.
 
 # Índice
 - Desafio
@@ -33,5 +35,6 @@ Obrigado por conferir este desafio de codificação de front-end.
 - Melhorando as habilidades no CSS
 - Marcadores semânticos importantes - - para HTML
 - angular 
+
 ## Autor
 - @mjpfelicia
