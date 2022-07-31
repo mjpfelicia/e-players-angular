@@ -13,7 +13,7 @@ body {
   --cor-azul-escuro-rgb: 30, 28, 33;
   --cor-azul-escuro: #1E1C21;
   --cor-button: #0B216F;
-   --cor-sucesso:#198754;
+  --cor-sucesso: #198754;
 }
 
 * {
@@ -40,6 +40,10 @@ h1 {
   background-position: center center;
 }
 
+.carousel {
+  background: var(--cor-vermelho);
+}
+
 .whapper-banner_pilotos{
-  background-position: 25% 50%;
+  background-position: 50% 50%;
 }

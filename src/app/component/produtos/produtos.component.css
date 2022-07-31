@@ -58,45 +58,76 @@
 .title-participar {
     font-size: 3rem;
 }
+
 .text-produtos {
     padding-left: 6rem;
 }
+
 .carousel-caption {
     right: 15%;
     bottom: 15.25rem;
     left: 45%;
-   
+
 }
+
 @media only screen and (max-width:991px) {
+
+    .whapper-banner_pilotos {
+        background-image: url("../../../assets/imagen/keyart_crushed.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 610px;
+        border: none;
+
+    }
+
+    .whapper-banner_cs {
+        background-position: 15% 50%;
+
+    }
+
     .imagem {
         display: none;
     }
+
     .descricao {
         width: 100% !important;
         margin-bottom: 0 !important;
         margin-top: 2rem;
     }
-    .carousel-caption{
+
+    .carousel-caption {
         bottom: 7.25rem;
 
     }
+
     .carousel-caption {
         right: 15%;
-        bottom: 13.25rem;
-        left: 30%;
-          
+        bottom: 14.25rem;
+        left: 0;
+        width: 100%;
     }
+
 }
-@media only screen and (max-width:600px){
-h1{
-    font-size: 2rem;
-}
-p{
-    font-size: .9rem;
-}
-.carousel-caption {
-    
-    left: 18%;
-      
-}
+
+@media only screen and (max-width:600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: .9rem;
+    }
+
+    .carousel-caption {
+        bottom: 7rem;
+        left: 0;
+    }
+
+    .whapper-banner_pilotos,
+    .whapper-banner_lol,
+    .whapper-banner_cs {
+        height: 450px;
+    }
+
 }
