@@ -4,15 +4,15 @@
     <div class="container-grid content-menu">
 
         <img class="logo" src="assets/imagen/logo.svg" title="logo-menu" alt="logo">
-        <nav class="menu">
-            <a class="text-white text-decoration-none" routerLink="./Login">Login</a>
+        <nav class="menu" id="menu">
+            <a class="text-white text-decoration-none" routerLink="/login">Login</a>
             <a class="text-white text-decoration-none" routerLink="">Início</a>
-            <a class="text-white text-decoration-none" routerLink="#">Horários</a>
-            <a class="text-white text-decoration-none" routerLink="#">Campeonato</a>
-            <a class="text-white text-decoration-none" routerLink="#">Resultados</a>
-            <a class="text-white text-decoration-none" routerLink="#">Notícias</a>
+            <a class="text-white text-decoration-none" routerLink="">Horários</a>
+            <a class="text-white text-decoration-none" routerLink="">Campeonato</a>
+            <a class="text-white text-decoration-none" routerLink="">Resultados</a>
+            <a class="text-white text-decoration-none" routerLink="">Notícias</a>
         </nav>
 
-        <img class="menu-bars" onclick="abreFechaMenu()" id="menu-bars" src="assets/imagen/bars.svg" alt="bars">
+        <img class="menu-bars" (click)="abreFechaMenu()" id="menu-bars" src="assets/imagen/bars.svg" alt="bars">
     </div>
 </header>

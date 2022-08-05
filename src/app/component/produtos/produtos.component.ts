@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-produtos',
@@ -10,6 +11,17 @@ export class ProdutosComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+    $(document).ready(function () {
+
+      $(".btn-liga").click(function () {
+        alert("Este produto não está disponível");
+      });
+
+    });
   }
+
+
+
 
 }

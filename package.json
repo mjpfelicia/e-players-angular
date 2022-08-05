@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy":"ng deploy",
+    "deploy": "ng deploy",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -36,6 +36,7 @@
     "@angular/cli": "~14.1.0",
     "@angular/compiler-cli": "^14.1.0",
     "@types/jasmine": "~4.0.0",
+    "@types/jquery": "^3.5.14",
     "angular-cli-ghpages": "^1.0.3",
     "jasmine-core": "~4.2.0",
     "karma": "~6.4.0",

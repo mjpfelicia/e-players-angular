@@ -9,6 +9,7 @@
     color: var(--cor-branco-);
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    width: 35%;
 }
 
 .link {
@@ -38,6 +39,7 @@
 .msg-error{
     color: var(--cor-vermelho);
     font-size: .9rem;
+    text-align: center;
 }
 .ok{
     color: var(--cor-sucesso);
@@ -101,6 +103,9 @@ h5{
     }
     .box-links {
         flex-direction: column;
+    }
+    .msg-error{
+        padding-top: 1rem;
     }
 
     
