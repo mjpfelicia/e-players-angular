@@ -12,6 +12,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule } from '@angular/forms';
 import { ProdutosComponent } from './component/produtos/produtos.component';
+import {HttpClientModule}  from'@angular/common/http';
 
 
 @NgModule({
@@ -28,7 +29,9 @@ import { ProdutosComponent } from './component/produtos/produtos.component';
     AppRoutingModule,
     FlexLayoutModule,
     FontAwesomeModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
+  
      
   ],
   providers: [],

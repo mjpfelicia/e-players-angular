@@ -1,0 +1,40 @@
+{
+  "signup": [
+    {
+      "nome": "sandra",
+      "email": "olivier@mail.com",
+      "password": "12345678",
+      "id": 1
+    },
+    {
+      "nome": "Olivia",
+      "email": "olivier@mail.com",
+      "password": "12345678",
+      "id": 2
+    },
+    {
+      "nome": "sandra jesus",
+      "email": "olivier@mail.com",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "nome": "sandra",
+      "email": "olivier@mail.com",
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "nome": "sandra maria",
+      "email": "olivier@mail.com",
+      "password": "12345678",
+      "id": 5
+    },
+    {
+      "nome": "sandra",
+      "email": "olivier@mail.com",
+      "password": "12345678",
+      "id": 6
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { faUser, faArrowLeft, faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
 import { User } from 'src/app/models/user';
+import { UserService } from 'src/app/services/user.service';
 
 
 @Component({
@@ -15,13 +16,17 @@ export class LoginComponent implements OnInit {
   faLock = faLock;
   UserModel = new User();
 
-  constructor() { }
+  constructor(private userService: UserService) { }
 
   ngOnInit(): void {
   }
 
   salvarDados() {
     console.log(this.UserModel)
+    this.userService.sigin(this.UserModel).subscribe(function(response){
+      console.log(response)
+
+    })
   }
 
 }
