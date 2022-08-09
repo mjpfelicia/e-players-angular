@@ -22,11 +22,13 @@ export class LoginComponent implements OnInit {
   }
 
   salvarDados() {
-    console.log(this.UserModel)
-    this.userService.sigin(this.UserModel).subscribe(function(response){
-      console.log(response)
+    console.log({ UserModel: this.UserModel })
 
-    })
+    this.userService.sigin(this.UserModel)
+      .subscribe(function (response) {
+        console.log({ response })
+
+      })
   }
 
 }

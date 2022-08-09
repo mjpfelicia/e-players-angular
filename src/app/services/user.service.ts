@@ -7,26 +7,19 @@ import { User } from '../models/user';
   providedIn: 'root'
 })
 export class UserService {
-  salvaedados(UserModel: User) {
-    throw new Error('Method not implemented.');
-  }
+  url = "http://localhost:3000/signin"
 
   constructor(
     private httpClient: HttpClient
   ) { }
-
-
-  url = "http://localhost:3000/signup"
-
-             // post   
 
   sigin(user: User): Observable<any> {
     return this.httpClient.post(
       this.url,
       JSON.stringify(user),
       {
-        headers:new HttpHeaders({'Content-Type': 'application/json'}),
-        observe:'response'
+        headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
+        observe: 'response'
       })
   }
 }
