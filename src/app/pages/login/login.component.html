@@ -5,7 +5,7 @@
         <fa-icon class="icon-sair" [icon]="faArrowLeft"></fa-icon>
     </a>
     <h1 class="titulo">Login</h1>
-    <form (ngSubmit)="salvarDados()">
+    <form (ngSubmit)="signin()">
         
         <div class="borda">
             <fa-icon [icon]="faUser"></fa-icon>
@@ -20,7 +20,7 @@
             <fa-icon [icon]="faLock"></fa-icon>
             <input type="password" id="senha" name="senha" placeholder="digite sua senha" [(ngModel)]="UserModel.password">
         </div>
-        <p class="mensagem"></p>
+        <p class="mensagem">{{mensagem}}</p>
         <button class="btn" type="submit">Sign in</button>
     </form>
 </div>

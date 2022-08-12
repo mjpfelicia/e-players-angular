@@ -1,0 +1,46 @@
+<div id="content-registro" class="content-registro">
+    <div role="document" class="box-geral tab-group">
+        <div class="box-content">
+            <div class="container">
+                <a routerLink="" class="cor-cadastra-tab">
+                    Cadastra
+                </a>
+
+                <div id="myTabContent" class="tab-content">
+
+                    <div id="cadastra-tab-pane" role="tabpanel" aria-labelledby="cadastra-tab" tabindex="0"
+                        class="tab-pane fade active show">
+                        <form novalidate="" id="form-cadastra" onsubmit="return false;">
+                            <div class="whapper">
+                                <label for="registerName" class="form-label">Nome</label>
+                                <input id="registerName" type="text" formcontrolname="nome" required=""
+                                    class="form-control">
+                            </div>
+                            <!---->
+                            <div class="whapper">
+                                <label for="email" class="form-label">Email</label>
+                                <input id="email" type="text" formcontrolname="email" required="" class="form-control">
+                            </div>
+                            <!---->
+                            <div class="whapper">
+                                <label for="registerPassword" class="form-label">Senha</label>
+                                <input id="registerPassword" type="password" formcontrolname="senha"
+                                    class="form-control">
+                                <!---->
+                            </div>
+                            <div class="d-grid mb-3 text-center">
+                                <button id="buttonEnviarmsgErrorCadastro" type="submit" class="btn">
+                                    <fa-icon [icon]="faUser"></fa-icon>
+                                    CADASTRO
+                                </button>
+                            </div>
+                        </form>
+                        <hr class="linha">
+                        <p class="mensagem"></p>
+                        <div class="text-center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

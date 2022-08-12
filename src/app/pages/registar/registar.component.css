@@ -1,0 +1,45 @@
+.content-registro{
+   
+    height: 100vh;
+    background: rgba(var(--cor-azul-escuro-rgb), 0.87);
+    color: var(--cor-branco-);
+    font-family: "Roboto";
+    border-top: 1px solid;
+}
+.box-geral{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    margin: 1.5rem auto 0;
+    background-color: var(--cor-vermelho);
+    color: var(--cor-branco-);
+    padding: 1.1rem;
+    border: 1px solid var(--cor-vermelho);
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    font-family: "Roboto";
+    box-shadow: 0px 0px 15px rgba(172, 13, 13, 0.5);
+}
+
+.btn:hover {
+    background: var(--cor-branco-);
+    color: var(--cor-azul-escuto);
+    border: ipx solid var(--cor-branco-);
+}
+
+.cor-cadastra-tab {
+    border: none;
+    background-color: transparent;
+    padding-bottom: 2rem;
+    color: var(--cor-vermelho);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.whapper {
+    margin-bottom: 1rem;
+}

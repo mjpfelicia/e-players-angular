@@ -13,6 +13,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule } from '@angular/forms';
 import { ProdutosComponent } from './component/produtos/produtos.component';
 import {HttpClientModule}  from'@angular/common/http';
+import { RegistarComponent } from './pages/registar/registar.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import {HttpClientModule}  from'@angular/common/http';
     LoginComponent,
     HomeComponent,
     ProdutosComponent,
+    RegistarComponent,
   ],
   imports: [
     BrowserModule,

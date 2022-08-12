@@ -15,20 +15,62 @@ export class LoginComponent implements OnInit {
   faEnvelope = faEnvelope;
   faLock = faLock;
   UserModel = new User();
+  mensagem: string = ""
 
   constructor(private userService: UserService) { }
 
   ngOnInit(): void {
   }
 
-  salvarDados() {
-    console.log({ UserModel: this.UserModel })
+  // salvarDados() {
+  //   console.log({ UserModel: this.UserModel })
 
-    this.userService.sigin(this.UserModel)
-      .subscribe(function (response) {
-        console.log({ response })
+  //   this.userService.sigin(this.UserModel)
+  //     .subscribe(function (response) {
+  //       console.log({ response })
 
-      })
+  //     })
+  // }
+
+
+  validaLogin(): boolean {
+    if (
+      this.UserModel.nome === undefined || this.UserModel.nome === '' || 
+      this.UserModel.email === undefined || this.UserModel.email === '' ||
+      this.UserModel.password === undefined || this.UserModel.password === ''
+    ) { 
+      return false;
+    } else {
+      return true;
+    }
+  }
+
+  //Função de Login
+  signin() {
+    //fazer validação
+    if ( this.validaLogin() ) { 
+      console.log(this.UserModel);
+      this.userService.sigin(this.UserModel)
+        .subscribe(
+          {
+            next: (response) => {
+              console.log(response);
+              this.mensagem = `Logado com Sucesso! ${response.status} ${response.statusText}`
+
+            },
+            error: (e) => {
+              console.log("Não é possível encontrar o usuário ", e);
+              this.mensagem = `Não foi possível encontrar o usuário ${e.status} ${e.statusText}`
+            }
+
+          }
+        )
+
+    } else {
+
+      console.log(this.UserModel);
+      this.mensagem = "Preencha este campo corretamente."
+    }
   }
 
 }

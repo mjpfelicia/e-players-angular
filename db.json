@@ -1,22 +1,16 @@
 {
   "users": [
     {
-      "email": "felicia@mail.com",
-      "password": "$2a$10$ojsUHu6dtMZERYeLfjl3VeHE427DyaUizPBfKpWjvyuAXGMLpRCsG",
-      "nome": "Sandra Felicio",
+      "email": "felicia@felcia",
+      "password": "$2a$10$q.nrcW7KzS6X3DtF9mqRZ.073Hi69Dv9ako72O97UlM8JLdKqQ.T2",
+      "nome": "sandra teste",
       "id": 1
     },
     {
-      "email": "maria@hotmail.com",
-      "password": "$2a$10$dR1905zzal0rRFclMjfBQO/7W6WHpssAsTbyNbjzqXTGm2eo5uK6i",
-      "nome": "Maria ",
+      "email": "maria@maria",
+      "password": "$2a$10$pchPt5UFyLW/3xgXWH3GyOowtxRxKQu4LWoc6dc4tuzYorbzyfi/S",
+      "nome": "maria teste",
       "id": 2
-    },
-    {
-      "email": "maria@kkkkkk",
-      "password": "$2a$10$xSXPypxQK11Lqa2MXbeD/.ycosMUz77UstGGC43X.QlWyOvhd0VCq",
-      "nome": "Maria jurema",
-      "id": 3
     }
   ]
 }
