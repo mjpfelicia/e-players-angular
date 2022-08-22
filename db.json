@@ -11,6 +11,18 @@
       "password": "$2a$10$pchPt5UFyLW/3xgXWH3GyOowtxRxKQu4LWoc6dc4tuzYorbzyfi/S",
       "nome": "maria teste",
       "id": 2
+    },
+    {
+      "email": "maria@teste",
+      "password": "$2a$10$SJgstCWmemIcv5CpKqkxiuUKbXNxSotrZUJz1KGP/pgND14YETsmG",
+      "nome": "maria",
+      "id": 3
+    },
+    {
+      "email": "sandra@sandra.com",
+      "password": "$2a$10$xPrCDRGw1arlTOR2mZ/pAucb5M42cwvTrRI8YGqLR6cvBvF4eF3sG",
+      "nome": "sandra",
+      "id": 4
     }
   ]
 }

@@ -1,4 +1,5 @@
 export class User {
+    static email: string | undefined;
     constructor(
 
         public nome?: string,
